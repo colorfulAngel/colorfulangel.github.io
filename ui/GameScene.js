@@ -9,6 +9,7 @@ var PuzzleTarget_1 = require("./PuzzleTarget");
 var ReloadBtn_1 = require("./ReloadBtn");
 var SoundBtn_1 = require("./SoundBtn");
 var FBBtn_1 = require("./FBBtn");
+var Clock_1 = require("./Clock");
 var GameScene = /** @class */ (function () {
     function GameScene() {
     }
@@ -24,7 +25,7 @@ var GameScene = /** @class */ (function () {
         Main_1.application.stage.addChild(new ReloadBtn_1.ReloadBtn());
         Main_1.application.stage.addChild(new FBBtn_1.FBBtn());
         // application.stage.addChild(new Stars());
-        // application.stage.addChild(new Clock());
+        Main_1.application.stage.addChild(new Clock_1.Clock());
         // 加入目標圖片
         Main_1.application.stage.addChild(new PuzzleTarget_1.PuzzleTarget('corgi', 'corgiTarget.png', 160, 305));
         // End Scene

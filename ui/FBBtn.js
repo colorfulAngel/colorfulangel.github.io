@@ -18,7 +18,8 @@ var ButtonBase_1 = require("./ButtonBase");
 var FBBtn = /** @class */ (function (_super) {
     __extends(FBBtn, _super);
     function FBBtn() {
-        return _super.call(this, 'Button', 'FB', 277, 210) || this;
+        // super('Button','FB', 277, 210);
+        return _super.call(this, 'Button', 'FB', 272, 210) || this;
     }
     FBBtn.prototype.trigger = function () {
         window.open('https://www.facebook.com/', 'FaceBook');

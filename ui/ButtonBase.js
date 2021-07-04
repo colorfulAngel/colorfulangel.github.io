@@ -21,7 +21,8 @@ var ButtonBase = /** @class */ (function (_super) {
     function ButtonBase(_id, textureID, _x, _y) {
         var _this = _super.call(this) || this;
         _this._enable = true;
-        _this.texture = Loader_1.Loader.resources[_id].textures[textureID];
+        // this.texture = Loader.resources[_id].textures[textureID];
+        _this.texture = Loader_1.Loader.resources[_id].textures[textureID + ".png"];
         _this.interactive = true;
         _this.buttonMode = true;
         _this.x = _x;

@@ -187,6 +187,7 @@ var GameBoard = /** @class */ (function (_super) {
             _this.blankPieceIdx = arr_id;
             var pass = _this.checkGameEnd();
             if (pass) {
+                // setTimeout(() => eventEmitter.emit(GameFlowEvent.GamePass), 2000);
                 Main_1.eventEmitter.emit(Event_1.GameFlowEvent.GamePass);
             }
         };

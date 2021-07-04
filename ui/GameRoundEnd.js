@@ -39,7 +39,8 @@ var GameRoundEnd = /** @class */ (function (_super) {
             _this.text.text = "Congratulations! \nYou passed!";
             _this.text.x = 210;
             _this.text.y = 200;
-            _this.visible = true;
+            setTimeout(function () { _this.visible = true; }, 2000);
+            // this.visible = true;
         });
         // Background
         var gt = new PIXI.Graphics();

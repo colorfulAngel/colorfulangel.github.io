@@ -20,7 +20,9 @@ var Event_1 = require("../core/Event");
 var ReloadBtn = /** @class */ (function (_super) {
     __extends(ReloadBtn, _super);
     function ReloadBtn() {
-        var _this = _super.call(this, 'Button', 'Reflash', 222, 210) || this;
+        var _this = 
+        // super('Button','Reflash', 222, 210);
+        _super.call(this, 'Button', 'Reflash', 217, 210) || this;
         Main_1.eventEmitter.on(Event_1.GameFlowEvent.GameRoundStart, (function () {
             _this.enable = true;
         }).bind(_this));

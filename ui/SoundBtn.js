@@ -20,14 +20,16 @@ var Loader_1 = require("../core/Loader");
 var SoundBtn = /** @class */ (function (_super) {
     __extends(SoundBtn, _super);
     function SoundBtn() {
-        var _this = _super.call(this, 'Button', 'Sound_On', 165, 210) || this;
+        var _this = 
+        // super('Button', 'Sound_On', 165, 210);
+        _super.call(this, 'Button', 'Sound_On', 160, 210) || this;
         _this.isMute = false;
         _this.updateImage = function () {
             if (_this.isMute) {
-                _this.texture = Loader_1.Loader.resources['Button'].textures['Sound_Off'];
+                _this.texture = Loader_1.Loader.resources['Button'].textures['Sound_Off.png'];
             }
             else {
-                _this.texture = Loader_1.Loader.resources['Button'].textures['Sound_On'];
+                _this.texture = Loader_1.Loader.resources['Button'].textures['Sound_On.png'];
             }
         };
         _this.updateImage();
