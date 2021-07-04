@@ -1,83 +1,52 @@
 {"frames": {
 
-"Clock":
+"Clock.png":
 {
-	"frame": {"x":0,"y":0,"w":27,"h":26},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":26},
-	"sourceSize": {"w":27,"h":26}
-},
-"FB":
-{
-	"frame": {"x":27,"y":0,"w":55,"h":55},
+	"frame": {"x":0,"y":0,"w":55,"h":55},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":55},
 	"sourceSize": {"w":55,"h":55}
 },
-"Reflash":
+"FB.png":
 {
-	"frame": {"x":0,"y":55,"w":56,"h":55},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":56,"h":55},
-	"sourceSize": {"w":56,"h":55}
-},
-"Revert":
-{
-	"frame": {"x":56,"y":55,"w":55,"h":55},
+	"frame": {"x":55,"y":0,"w":55,"h":55},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":55},
 	"sourceSize": {"w":55,"h":55}
 },
-"Sound_Off":
+"Reflash.png":
 {
-	"frame": {"x":0,"y":110,"w":55,"h":55},
+	"frame": {"x":110,"y":0,"w":55,"h":55},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":55},
 	"sourceSize": {"w":55,"h":55}
 },
-"Sound_On":
+"Sound_Off.png":
 {
-	"frame": {"x":55,"y":110,"w":55,"h":55},
+	"frame": {"x":165,"y":0,"w":55,"h":55},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":55},
 	"sourceSize": {"w":55,"h":55}
 },
-"Star_Empty":
+"Sound_On.png":
 {
-	"frame": {"x":0,"y":165,"w":24,"h":23},
+	"frame": {"x":220,"y":0,"w":55,"h":55},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":23},
-	"sourceSize": {"w":24,"h":23}
-},
-"Star_Full":
-{
-	"frame": {"x":24,"y":165,"w":25,"h":25},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":25,"h":25},
-	"sourceSize": {"w":25,"h":25}
-},
-"Tip":
-{
-	"frame": {"x":49,"y":165,"w":56,"h":55},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":56,"h":55},
-	"sourceSize": {"w":56,"h":55}
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":55},
+	"sourceSize": {"w":55,"h":55}
 }},
 "meta": {
-	"app": "Adobe Animate",
-	"version": "15.1.1.13",
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
 	"image": "Button.png",
 	"format": "RGBA8888",
-	"size": {"w":128,"h":256},
-	"scale": "1"
+	"size": {"w":275,"h":55},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:88450e6bc886875879d547753caee041:27ce91c5cb958d094d6ac6cea4b287a3:641d884822b583c42e87e4fc2164c2f6$"
 }
 }
